@@ -1,3 +1,4 @@
+#!/bin/sh
 if [ $# -eq 0 ]
   then
     echo "Usage: ./convert.sh video.mp4"
