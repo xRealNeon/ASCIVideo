@@ -10,6 +10,7 @@
   "author": "NeoCode",
   "license": " GPL-3.0",
   "dependencies": {
-    "await-exec": "^0.1.2"
+    "await-exec": "^0.1.2",
+    "progress": "^2.0.3"
   }
 }
