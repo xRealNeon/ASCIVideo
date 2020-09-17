@@ -1,4 +1,5 @@
 # ASCIVideo 🎞️
+ ASCI video generator and player 
 
 ## Installation 📀
 Install npm packages with `npm i`
