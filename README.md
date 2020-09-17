@@ -42,6 +42,10 @@ sudo zypper install jp2a
 </p>
 </details>
 
+## Using in Windows <img src="https://1000logos.net/wp-content/uploads/2017/06/Windows-Logo.png" alt="android" width="30" height="30"/>
+
+if you want to use this program in windows i recommend to use wsl
+
 ## Usage ⌨️
 ```bash
 ./convert.sh video.mp4
