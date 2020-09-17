@@ -1,13 +1,14 @@
 {
   "name": "asci-test",
   "version": "1.0.0",
-  "description": "",
+  "description": " ASCI video generator and player ",
+  "repository": "https://github.com/xRealNeon/ASCIVideo.git",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "NeoCode",
+  "license": " GPL-3.0",
   "dependencies": {
     "await-exec": "^0.1.2"
   }
