@@ -43,5 +43,5 @@ sudo zypper install jp2a
 
 ## Usage ⌨️
 ```bash
-./convert.sh video.mp4⌨️
+./convert.sh video.mp4
 ```
