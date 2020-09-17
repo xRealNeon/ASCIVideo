@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>never-gonna-give-you-up</title>
+</head>
+
+<body>
+    <div id="content"></div>
+</body>
+<script>
+    var request = new XMLHttpRequest();
+
+    request.open("GET", "output.json");
+
+    request.addEventListener('load', function (event) {
+        if (request.status >= 200 && request.status < 300) {
+
+            json = JSON.parse(request.responseText);
+            const content = document.getElementById("content");
+
+            console.log(json.frames.length);
+            var i = 0;
+            setInterval(function () {
+                if (i < json.frames.length) {
+                    i++;
+                    content.innerHTML = json.frames[i - 1];
+                    console.log(i);
+                } else {
+                    i = 0;
+                }
+            }, 30);
+        } else {
+            console.warn(request.statusText, request.responseText);
+        }
+    });
+    request.send();
+</script>
+<style>
+    body {
+        font-family: monospace;
+        background-color: black;
+    }
+
+    #content {
+        color: white;
+    }
+</style>
+
+</html>
