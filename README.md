@@ -4,6 +4,8 @@
 ## Installation 📀
 Install npm packages with `npm i`
 
+[Install ffmpeg](https://ffmpeg.org/download.html)
+
 <details><summary>Install jp2a</summary>
 <p>
 
