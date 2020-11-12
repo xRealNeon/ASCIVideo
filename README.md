@@ -2,6 +2,7 @@
  ASCI video generator and player 
 
 ## Using with Docker <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="android" width="30" height="30"/>
+Just replace your_paht with the absolute path of your video folder and Video.mp4 with the Filename of your Video
 ```
 docker run -v your_path:/app/io -e VIDEO="Video.mp4" neocodedev/ascivideo:latest
 ```
