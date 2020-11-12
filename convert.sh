@@ -11,3 +11,4 @@ ffmpeg -i $1 -vf fps=30 img/%d.jpeg
 npm start
 rm -R img
 cp io/output.json output.json
+rm -R io
