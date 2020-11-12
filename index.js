@@ -34,7 +34,7 @@ async function convertToAsci() {
         output.push(frame.stdout);
     }
     console.log("Saving frames to file...");
-    fs.writeFileSync("output.json", JSON.stringify({
+    fs.writeFileSync("io/output.json", JSON.stringify({
         "frames": output
     }));
 }
